@@ -1,0 +1,14 @@
+.navbar-brand{
+    font-family: 'Axiforma-Bold';  
+}
+
+h1 {
+    font-family: 'Montserrat-black', sans-serif;  
+    font-size: 64px;  
+    line-height: 72px;
+    font-weight: 900;
+}
+
+#title{
+    background-color: #ff4c68;
+}
