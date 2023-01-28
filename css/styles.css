@@ -4,11 +4,15 @@
 
 h1 {
     font-family: 'Montserrat-black', sans-serif;  
-    font-size: 64px;  
-    line-height: 72px;
+    font-size: 48px;  
+    line-height: 56px;
     font-weight: 900;
 }
 
 #title{
     background-color: #ff4c68;
+}
+
+.container-fluid{
+    padding: 3% 15%;
 }
