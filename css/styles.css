@@ -1,18 +1,144 @@
-.navbar-brand{
-    font-family: 'Axiforma-Bold';  
+body {
+  font-family: "Montserrat";
 }
 
+/* Navbar */
+
+.navbar{
+    padding: 0 0 72px;
+}
+
+.navbar-brand {
+  font-family: "Axiforma-Bold";
+  font-size: 32px;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: 'Montserrat-light';
+    font-size: 20px;
+}
+
+/* Hero/Buttons */
+
+.ri-apple-fill {
+    margin-right: 4px;
+  }
+  
+  .ri-google-play-fill {
+    margin-right: 4px;
+  }
+  
+  .apple-button {
+    margin-right: 24px;
+    margin-top: 24px;
+    padding: 8px 32px;
+  }
+  
+  .google-button {
+    margin-top: 24px;
+    padding: 8px 32px;
+  }  
+
+/* Fonts */
+
 h1 {
-    font-family: 'Montserrat-black', sans-serif;  
-    font-size: 48px;  
-    line-height: 56px;
+    font-family: "Montserrat-black", sans-serif;
+    font-size: 48px;
+    line-height: 64px;
     font-weight: 900;
 }
 
-#title{
-    background-color: #ff4c68;
+h2{
+    font-family: "Montserrat-bold", sans-serif;
+    font-size: 32px;
+    line-height: 40px;
 }
 
-.container-fluid{
-    padding: 3% 15%;
+h3{
+    font-family: "Montserrat-bold", sans-serif;
+    font-size: 24px;
+    line-height: 26px;
 }
+
+p{
+    color: #8f8f8f;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.display {
+  color: #ffffff;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Features */
+
+#features{
+    padding: 120px 200px;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 24px;
+}
+
+.icon{
+    font-size: 64px;
+    color: #ff4c68;
+}
+
+.icon:hover{
+    color: #cb4f62;
+}
+
+/* Testimonial */
+
+#testimonials{
+    padding: 120px 380px 120px 380px;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.test-image{
+    border-radius: 50%;
+    width: 25%;
+    margin: 20px;
+}
+
+/* Press */
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.logos{
+    width: 15%;
+    margin: 16px;
+}
+
+.tnw{
+    width: 8%;
+}
+
+/* Graphic */
+
+.doggo {
+  width: 60%;
+  align-content: center;
+  margin-left: 80px;
+  transform: rotate(25deg);
+}
+
+
